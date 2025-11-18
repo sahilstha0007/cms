@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///home/sahilshrestha/cms/app/page.tsx"],"sourcesContent":["import React from 'react'\n\nconst page = () => {\n  return (\n    <>\n     <Navbar/>\n    </>\n  )\n}\n\nexport default page\n"],"names":[],"mappings":";;;;;;AAEA,MAAM,OAAO;IACX,qBACE;kBACC,cAAA,6WAAC;;;;;;AAGN;uCAEe"}}]
+}

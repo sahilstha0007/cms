@@ -1,0 +1,8 @@
+/node_modules
+/.pnpm
+/.next/
+/out/
+
+# Miscellaneous
+.DS_Store
+*.local

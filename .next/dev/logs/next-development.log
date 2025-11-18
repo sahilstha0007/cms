@@ -1,0 +1,216 @@
+[00:00:01.318] Server  LOG      ✓ Ready in 848ms
+[00:01:15.227] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:17.733] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:17.733] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:17.733] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763471232247}
+[00:01:52.284] Browser ERROR   ./components/Navbar.tsx:11:10
+Parsing ecmascript source code failed
+   9 |
+  10 | export default function Navbar() {
+> 11 |   return (
+     |          ^
+> 12 |     // <div>
+     | ^^^^^^^^^^^^
+> 13 |     //   <nav className="flex items-center justify-between px-6 py-4 bg-card border-b border-border">
+     | ^^^^^^^^^^^^
+> 14 |     //     <Link href="/" className="text-2xl font-bold">
+     | ^^^^^^^^^^^^
+> 15 |     //       MyBrand
+     | ^^^^^^^^^^^^
+> 16 |     //     </Link>
+     | ^^^^^^^^^^^^
+> 17 |
+     | ^^^^^^^^^^^^
+> 18 |     //     <div className="hidden md:flex gap-8">
+     | ^^^^^^^^^^^^
+> 19 |     //       {navItems.map((item) => (
+     | ^^^^^^^^^^^^
+> 20 |     //         <Link
+     | ^^^^^^^^^^^^
+> 21 |     //           key={item.href}
+     | ^^^^^^^^^^^^
+> 22 |     //           href={item.href}
+     | ^^^^^^^^^^^^
+> 23 |     //           className="text-foreground font-medium hover:text-primary transition-colors"
+     | ^^^^^^^^^^^^
+> 24 |     //         >
+     | ^^^^^^^^^^^^
+> 25 |     //           {item.label}
+     | ^^^^^^^^^^^^
+> 26 |     //         </Link>
+     | ^^^^^^^^^^^^
+> 27 |     //       ))}
+     | ^^^^^^^^^^^^
+> 28 |     //     </div>
+     | ^^^^^^^^^^^^
+> 29 |
+     | ^^^^^^^^^^^^
+> 30 |     //     <div className="flex gap-3">
+     | ^^^^^^^^^^^^
+> 31 |     //       <button className="px-4 py-2 border border-primary text-primary font-medium rounded-lg hover:bg-primary hover:text-primary-foreground transition-colors">
+     | ^^^^^^^^^^^^
+> 32 |     //         Sign In
+     | ^^^^^^^^^^^^
+> 33 |     //       </button>
+     | ^^^^^^^^^^^^
+> 34 |     //       <button className="px-4 py-2 bg-primary text-primary-foreground font-medium rounded-lg hover:opacity-90 transition-opacity">
+     | ^^^^^^^^^^^^
+> 35 |     //         Get Started
+     | ^^^^^^^^^^^^
+> 36 |     //       </button>
+     | ^^^^^^^^^^^^
+> 37 |     //     </div>
+     | ^^^^^^^^^^^^
+> 38 |     //   </nav>
+     | ^^^^^^^^^^^^
+> 39 |
+     | ^^^^^^^^^^^^
+> 40 |     //   <main className="p-8">
+     | ^^^^^^^^^^^^
+> 41 |     //     <h1 className="text-3xl font-bold">Welcome</h1>
+     | ^^^^^^^^^^^^
+> 42 |     //     <p className="text-lg text-muted-foreground mt-2">
+     | ^^^^^^^^^^^^
+> 43 |     //       Check the navbar above!
+     | ^^^^^^^^^^^^
+> 44 |     //     </p>
+     | ^^^^^^^^^^^^
+> 45 |     //   </main>
+     | ^^^^^^^^^^^^
+> 46 |     // </div>
+     | ^^^^^^^^^^^^
+> 47 |   );
+     | ^^^^
+  48 | }
+  49 |
+
+Parenthesized expression cannot be empty
+
+Import trace:
+  Server Component:
+    ./components/Navbar.tsx
+    ./app/page.tsx
+[00:01:55.673] Browser ERROR   ./components/Navbar.tsx:47:3
+Parsing ecmascript source code failed
+  45 |   //   //   </main>
+  46 |   //   // </div>
+> 47 |   );
+     |   ^
+  48 | }
+  49 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Navbar.tsx
+    ./app/page.tsx
+[00:02:03.078] Browser ERROR   ./components/Navbar.tsx:11:10
+Parsing ecmascript source code failed
+   9 |
+  10 | export default function Navbar() {
+> 11 |   return (
+     |          ^
+> 12 |    
+     | ^^^
+> 13 |     // <div>
+     | ^^^
+> 14 |     //   <nav className="flex items-center justify-between px-6 py-4 bg-card border-b border-border">
+     | ^^^
+> 15 |     //     <Link href="/" className="text-2xl font-bold">
+     | ^^^
+> 16 |     //       MyBrand
+     | ^^^
+> 17 |     //     </Link>
+     | ^^^
+> 18 |
+     | ^^^
+> 19 |     //     <div className="hidden md:flex gap-8">
+     | ^^^
+> 20 |     //       {navItems.map((item) => (
+     | ^^^
+> 21 |     //         <Link
+     | ^^^
+> 22 |     //           key={item.href}
+     | ^^^
+> 23 |     //           href={item.href}
+     | ^^^
+> 24 |     //           className="text-foreground font-medium hover:text-primary transition-colors"
+     | ^^^
+> 25 |     //         >
+     | ^^^
+> 26 |     //           {item.label}
+     | ^^^
+> 27 |     //         </Link>
+     | ^^^
+> 28 |     //       ))}
+     | ^^^
+> 29 |     //     </div>
+     | ^^^
+> 30 |
+     | ^^^
+> 31 |     //     <div className="flex gap-3">
+     | ^^^
+> 32 |     //       <button className="px-4 py-2 border border-primary text-primary font-medium rounded-lg hover:bg-primary hover:text-primary-foreground transition-colors">
+     | ^^^
+> 33 |     //         Sign In
+     | ^^^
+> 34 |     //       </button>
+     | ^^^
+> 35 |     //       <button className="px-4 py-2 bg-primary text-primary-foreground font-medium rounded-lg hover:opacity-90 transition-opacity">
+     | ^^^
+> 36 |     //         Get Started
+     | ^^^
+> 37 |     //       </button>
+     | ^^^
+> 38 |     //     </div>
+     | ^^^
+> 39 |     //   </nav>
+     | ^^^
+> 40 |
+     | ^^^
+> 41 |     //   <main className="p-8">
+     | ^^^
+> 42 |     //     <h1 className="text-3xl font-bold">Welcome</h1>
+     | ^^^
+> 43 |     //     <p className="text-lg text-muted-foreground mt-2">
+     | ^^^
+> 44 |     //       Check the navbar above!
+     | ^^^
+> 45 |     //     </p>
+     | ^^^
+> 46 |     //   </main>
+     | ^^^
+> 47 |     // </div>
+     | ^^^
+> 48 |   );
+     | ^^^^
+  49 | }
+  50 |
+
+Parenthesized expression cannot be empty
+
+Import trace:
+  Server Component:
+    ./components/Navbar.tsx
+    ./app/page.tsx
+[00:02:08.460] Server  LOG      ✓ Compiled in 145ms
+[00:02:09.998] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:10.119] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:10.119] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:10.119] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763471284634}
+[00:02:30.564] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:31.560] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:31.560] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:31.561] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763471306075}
+[00:06:52.518] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:52.576] Server  LOG      ✓ Compiled in 19ms
+[00:06:52.753] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:52.753] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:06:52.753] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763471567268}
+[00:06:56.571] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:56.733] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:56.733] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:06:56.733] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763471571248}
+[00:07:23.741] Server  LOG      ✓ Compiled in 73ms
+[00:07:28.982] Server  LOG      ✓ Compiled in 42ms

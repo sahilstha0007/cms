@@ -1,18 +1,6 @@
-[00:00:02.258] Server  LOG      ✓ Ready in 1273ms
-[00:00:05.303] Server  LOG      ○ Compiling / ...
-[00:00:08.999] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:09.161] Browser WARN    Image with src "OrionLogo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:02.609] Server  LOG      ✓ Ready in 1717ms
+[00:00:23.823] Server  LOG      ○ Compiling / ...
+[00:00:26.777] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:26.898] Browser WARN    Image with src "OrionLogo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:09.161] Browser WARN    Image with src "http://localhost:3000/OrionLogo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:21.667] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:23.608] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:23.762] Browser WARN    Image with src "OrionLogo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:23.762] Browser WARN    Image with src "http://localhost:3000/OrionLogo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:01:26.647] Server  LOG      ✓ Compiled in 165ms
-[00:01:52.525] Server  LOG      ✓ Compiled in 110ms
-[00:02:26.480] Server  LOG      ✓ Compiled in 122ms
-[00:02:33.126] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:33.126] Browser WARN    Image with src "OrionLogo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:02:33.126] Browser WARN    Image with src "http://localhost:3000/OrionLogo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:26.898] Browser WARN    Image with src "http://localhost:3000/OrionLogo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

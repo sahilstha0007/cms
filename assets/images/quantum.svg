@@ -1,0 +1,5 @@
+<svg width="140" height="32" viewBox="0 0 140 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="16" cy="16" r="8" fill="#52525b"/>
+  <ellipse cx="16" cy="16" rx="14" ry="4.5" stroke="#52525b" stroke-width="2" transform="rotate(-24 16 16)"/>
+  <text x="38" y="21" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="15" font-weight="600" letter-spacing="-0.3" fill="#52525b">Quantum</text>
+</svg>

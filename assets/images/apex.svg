@@ -1,0 +1,5 @@
+<svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M16 4L28 26H4L16 4Z" stroke="#52525b" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M16 13L22 24H10L16 13Z" fill="#52525b"/>
+  <text x="36" y="21" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="15" font-weight="600" letter-spacing="-0.3" fill="#52525b">Apex</text>
+</svg>

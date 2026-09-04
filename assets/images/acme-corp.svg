@@ -1,0 +1,5 @@
+<svg width="140" height="32" viewBox="0 0 140 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M16 5L27 25H5L16 5Z" fill="#52525b"/>
+  <path d="M16 12L22 23H10L16 12Z" fill="white"/>
+  <text x="36" y="21" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="15" font-weight="600" letter-spacing="-0.3" fill="#52525b">Acme Corp</text>
+</svg>
